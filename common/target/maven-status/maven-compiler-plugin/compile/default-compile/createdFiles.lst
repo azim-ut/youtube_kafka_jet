@@ -1,0 +1,3 @@
+messages\PortMessage.class
+messages\ShipStateMessage.class
+messages\WeatherMessage.class
