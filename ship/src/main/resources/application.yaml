@@ -8,6 +8,7 @@ spring:
       default-topic: officeRoutes
     consumer:
       group-id: BoardId
+      auto-offset-reset: latest
 
 application:
   boards:
@@ -15,8 +16,8 @@ application:
       location: "Port 1"
       speed: 3
     - name: "Board 2"
-      speed: 4
       location: "Port 1"
-    - name: "Board 3"
       speed: 4
-      location: "Port 3"
+    - name: "Board 3"
+      location: "Port 2"
+      speed: 4

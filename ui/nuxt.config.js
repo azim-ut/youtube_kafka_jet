@@ -48,10 +48,11 @@ export default {
     proxy: true
   },
   proxy: {
-    "/api/routes": {
+    "/api/routes":{
       target: "http://localhost:8083"
     }
   },
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }

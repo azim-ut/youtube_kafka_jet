@@ -2,13 +2,14 @@ server:
   port: 8083
 
 spring:
+
   kafka:
     bootstrap-servers: localhost:29092
     template:
       default-topic: officeRoutes
     consumer:
       group-id: OfficeGroupId
-      auto-offset-reset: earliest
+      auto-offset-reset: latest
 
 application:
   ports:
